@@ -1,0 +1,21 @@
+1)
+5 schedules
+
+2)
+Process A: 142,5
+Process B: 102,5
+
+Process B will be taken because the time is shorter than the time of process A.
+
+3)
+CPU-bound processes: Processes without a user interface (no IO). 
+I/O-bound processes: Processes with a high user interaction.
+It is important because CPU-Bound processes need high quanta but low priority whereas I/O-Bound processes need low quanta and high 
+priority. The scheduler has to identify which processes need a specific amount of quanta and priority.
+
+
+4)
+35/50 + 20/100 + 10/200 = 19/20 -> 0,05
+
+x/250 = 1 - 0,05
+x/250 = 0,95 -> x = 0,95 * 250 = 12,5s
